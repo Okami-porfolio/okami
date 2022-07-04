@@ -1,0 +1,488 @@
+ 
+ body{
+    background-color:rgb(26, 29, 41); 
+    
+    font-family:rockwell;
+    font-weight: bold;
+    
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    cursor: pointer;
+    
+
+ }
+ 
+
+ header{
+
+    width: 100%;
+    height: 120vh;
+    padding: 0px 0px;
+    background-attachment:fixed;
+   margin: 0px;
+
+
+
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ nav{
+    
+    
+    width: 104%;
+    background-color: rgb(31, 17, 68);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px ;
+    margin: 0px;
+    padding-bottom: 8px ;
+   
+   
+    
+    
+
+ }
+
+
+   
+ 
+ .logo{
+
+  
+    background-color: whitesmoke;
+    width: 184x;
+    padding: 5px;
+    margin: 15px;
+     border-radius: 5px 50px;
+     transition: 2s;
+      
+   
+     
+ }
+ 
+ 
+ 
+
+
+
+
+ nav ul li {
+    display: inline-block;
+     list-style: none;
+     margin: 10px 40px;
+     
+     
+   
+
+
+
+ }
+
+ nav ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-right: 40px;
+    
+    
+ }
+
+
+ li a:hover{
+    color:white;
+    transition: 0.1s;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:overline;
+    text-decoration-color: aqua;
+     
+     
+
+ }
+
+  
+
+
+
+ .text-box{
+    margin-left: 7rem;
+    margin-top:40px ;
+    max-width: 600px;
+    padding: 30px;
+    
+
+ }
+
+ .text-box h1{
+
+
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    
+    
+ }
+
+ .text-box h1 span{
+
+    color: rgb(43, 255, 15);
+ }
+
+.text-box p {
+
+    font-size: 20px;
+    color: beige;
+}
+
+ 
+
+  .bro img{
+
+
+
+    width: 400px;
+    height: 400px;
+    display:block;
+    position: absolute;
+    top: 0%;
+    right: 7%;
+    margin-top: 200px;
+     background-color: aliceblue;
+    border-radius: 500px;
+    padding-bottom: 10px;
+     
+    
+     
+ }
+
+ 
+  
+ #about{
+
+
+    background-color: rgb(163, 145, 180);
+    width:50%;
+    height: 500px;
+    margin-top: 45px;
+    display: block;
+    margin-left: 20px;
+    border-radius: 500px 0 500px 0;
+    justify-content: center;
+    transition: 2s;
+    
+    
+ }
+
+
+ #about:hover{
+
+   animation-name: about;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-delay: 4s;
+   transition: 2s;
+   transform:scale(95%);
+   transform: rotatey(40deg);
+   background-color: brown;
+   text-shadow: 30px;
+   filter:bold(2px);
+    
+    
+
+   
+   
+ } 
+
+
+ #about-pic img{
+   width: 40%;
+   height: 400px;
+   margin-top: 88px;
+   margin-left: 20px;
+   
+   display: inline-block;
+   position: absolute;
+   right: 40px;
+
+
+
+ }
+
+ .containner{
+
+   background-color: antiquewhite;
+   margin-top: 100px;
+   width: 100%;
+   height: 600px;
+   padding: 20px;
+   border-radius: 20px;
+   padding: 20px;
+   border-style:solid;
+   border-color: rgb(224, 169, 169);
+  
+
+
+
+
+
+
+ }
+  
+.img2 img{
+
+
+   border-radius: 500px;
+}
+
+
+
+
+
+ #about h1 {
+
+
+
+    color:rgb(7, 56, 202);
+    font-size: 60px;
+  padding: 40px;
+   margin-left: 50px;
+ }
+ #about h1 span{
+
+   color: blanchedalmond;
+   
+ }
+
+ 
+ #about h2{
+
+  text-align: center;
+  text-transform: capitalize;
+  font-family: poppins, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color:white;
+  letter-spacing: 3px;
+
+ }
+
+
+ #about h2 span{
+
+   font-size: 70px;
+   color: rgb(255, 0, 85);
+   background-color:white;
+   padding: 2px;
+   border-radius: 10px 50px 10px 50px;
+ }
+
+ #about p{
+
+  
+   text-align: center;
+   text-transform: capitalize;
+   
+   color:rgb(0, 8, 114);
+  
+   border-color: rgb(231, 40, 40);
+   background-color: antiquewhite;
+   font-family: poppins,sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+
+
+
+
+
+
+
+ }
+
+
+ .blur{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    display: block;
+    float: inline-end;
+    border-radius: 50%;
+    filter: blur(10px);
+ }
+
+ 
+ .blur2{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    display: block;
+    float:inline-end;
+    position: absolute;
+    top:85%;
+    right: 50%;
+    
+    border-radius: 50%;
+    filter: blur(10px);
+ }
+
+
+ .sign-2 img{
+
+   display: block;
+   width: 300px;
+   height: 100px;
+    background-color: rgb(255, 0, 0);
+   border-radius: 20px;
+  
+
+
+ }
+
+
+ .blour{
+   background-color:rgb(4, 19, 105);
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   right: 7%;
+   top: 30%;
+   border-radius: 50%;
+   filter: blur(30px);
+   transition: 3s;
+
+
+
+ }
+
+ .blour:hover{
+
+   animation-name: blr;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   
+    
+   transform: scale(-1.1);
+   
+   filter:blur(50%);
+ } 
+
+
+
+ @keyframes blr {
+  
+   20%{background-color: royalblue;}
+   40%{background-color: wheat;}
+   50%{background-color: black;}
+    
+   
+ }
+ 
+ 
+ #contact{
+
+   margin-top: 100px;
+   margin-bottom: 200px;
+   
+   background-color: rgb(77, 125, 153);
+   
+   width: 500px;
+   height: 500px;
+   padding: 0px;
+   border-radius: 300px;
+  
+   display: inline-block;
+
+
+ }
+
+ #contact h1 {
+
+   color:rgb(116, 0, 58);
+   font-size: 50px;
+   font-weight: bold;
+   text-align:end;
+   margin-top: 20px;
+   text-transform: uppercase;
+   
+}
+
+#contact h2{
+
+   color: rgb(56, 37, 73);
+   font-size: 50px;
+   font-weight: bold;
+   
+   text-align:end;
+   text-transform: capitalize;
+}
+
+ .contact-icons{
+   background-color: aliceblue;
+   width: 800px;
+   height: 400px;
+   display: inline-block;
+   position: absolute;
+   border-style: solid;
+   border-color: rgb(225, 233, 233);
+   border-width: 2rem;
+   
+   margin-top: 40px;
+   right: 7%;
+   padding: 3rem;
+   border-radius: 300px 0px 1000px 0px;
+ }
+
+ .contact-icons ul{
+   list-style: none;
+   display: inline-block;
+   justify-content: center;
+   color: rgb(36, 36, 70);
+   font-weight: bolder;
+   font-size: 20px;
+   margin-left: 30px;
+   position: absolute;
+   top: 90px;
+   left: 10px;
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+   border-radius: 20px;
+   letter-spacing: 2px;
+   
+   
+
+
+ }
+
+ .sign2-copy img{
+   width: 200px;
+   height: 100px;
+   display: inline-block;
+   position: absolute;
+   align-items: center;
+  left: 50px;
+margin-left: 30px;
+margin-top: 70px;
+
+ }
+
+ .containner:hover{
+
+
+  animation-name: about;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-delay: 4s;
+   transition: 2s;
+   transform:scale(95%);
+   transform: rotatey(40deg);
+   background-color: rgb(201, 187, 187);
+  
+ 
+    
+    
+ }
